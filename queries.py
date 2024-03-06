@@ -1,6 +1,5 @@
 # pylint: disable=missing-docstring, C0103
 
-
 def directors_count(db):
     # return the number of directors contained in the database
     query = "SELECT COUNT(*) FROM directors"
